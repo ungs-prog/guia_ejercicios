@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+cache:
+  directories:
+    - $HOME/.m2
+
+notifications:
+  email:
+    on_success: never
